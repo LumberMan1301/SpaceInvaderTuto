@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="259fcd9e-6a1e-414d-bcc9-896e3aa71923" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="259fcd9e-6a1e-414d-bcc9-896e3aa71923" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -239,7 +237,7 @@
       <option name="presentableId" value="Default" />
       <updated>1522308255158</updated>
       <workItem from="1522308259936" duration="2470000" />
-      <workItem from="1522376460101" duration="4080000" />
+      <workItem from="1522376460101" duration="4132000" />
     </task>
     <task id="LOCAL-00001" summary="Fin del primer tutorial&#10;se crea la pantalla principal">
       <created>1522380714976</created>
@@ -248,11 +246,18 @@
       <option name="project" value="LOCAL" />
       <updated>1522380714976</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Fin del primer tutorial&#10;se crea la pantalla principal">
+      <created>1522380726531</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1522380726531</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6550000" />
+    <option name="totallyTimeSpent" value="6602000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="1376" height="744" extended-state="6" />
