@@ -74,6 +74,7 @@ public class Display extends Canvas implements Runnable{
      * atributos de la Clase Display para asignar el tamno de la ventana
       */
     public static int WIDTH = 800, HEIGHT = 600;
+    public int FPS;
 
 
     /**
@@ -81,8 +82,29 @@ public class Display extends Canvas implements Runnable{
      */
     @Override
     public void run() {
+        long timer = System.currentTimeMillis();
+        long lastLoopTime = System.nanoTime();
+        final int TARGET_FPS = 60;
+        final long OPTIMAL_TIME = 1000000000 / TARGET_FPS;
+        int frames = 0;
+
         while (running){
-            System.out.println("Systema en funcionamiento");
+            long now = System.nanoTime();
+            long updateLength = now - lastLoopTime;
+            lastLoopTime = now;
+            double delta = updateLength / ((double)OPTIMAL_TIME);
+
+            frames++;
+
+            if(System.currentTimeMillis() - timer > 1000){
+                timer +=1000;
+                FPS = frames;
+                frames = 0;
+            }
+
+            try {
+                Thread.sleep(((lastLoopTime - System.nanoTime())+OPTIMAL_TIME)/1000000);
+            }catch (Exception e){};
         }
     }
 }
