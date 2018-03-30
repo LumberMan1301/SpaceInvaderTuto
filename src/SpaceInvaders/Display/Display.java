@@ -11,7 +11,7 @@ public class Display extends Canvas implements Runnable{
      * atributo que asigna un serial a cada objeto que es creado de esta clase
      */
     private static final long serialVersionUID = 1L;
-
+    private int ele;
 
     /**
      * Constructs a new Canvas.
