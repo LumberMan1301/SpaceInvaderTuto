@@ -2,6 +2,7 @@ package SpaceInvaders.Display;
 
 import javax.swing.*;
 import java.awt.*;
+import java.awt.image.BufferStrategy;
 
 /**
  * Clase que va a permitir visulizar el videojuego
@@ -88,6 +89,10 @@ public class Display extends Canvas implements Runnable{
         final long OPTIMAL_TIME = 1000000000 / TARGET_FPS;
         int frames = 0;
 
+        this.createBufferStrategy(3);// mecanismo para organizar memoria, en programas relacionados con Canvas
+        BufferStrategy bs = this.getBufferStrategy();
+
+
         while (running){
             long now = System.nanoTime();
             long updateLength = now - lastLoopTime;
@@ -101,10 +106,30 @@ public class Display extends Canvas implements Runnable{
                 FPS = frames;
                 frames = 0;
             }
+            draw(bs);
+            update(delta);
 
             try {
                 Thread.sleep(((lastLoopTime - System.nanoTime())+OPTIMAL_TIME)/1000000);
             }catch (Exception e){};
         }
+    }
+
+    public void draw(BufferStrategy bs){
+        do{
+            do{
+                Graphics2D g = (Graphics2D) bs.getDrawGraphics();
+                g.setColor(Color.BLACK);
+                g.fillRect(0,0,WIDTH, HEIGHT);
+                g.dispose();
+
+
+            }while(bs.contentsRestored());
+            bs.show();//
+        }while(bs.contentsLost());
+    }
+
+    public void update(double delta){
+
     }
 }
