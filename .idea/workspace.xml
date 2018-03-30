@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="259fcd9e-6a1e-414d-bcc9-896e3aa71923" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -240,12 +239,20 @@
       <option name="presentableId" value="Default" />
       <updated>1522308255158</updated>
       <workItem from="1522308259936" duration="2470000" />
-      <workItem from="1522376460101" duration="4036000" />
+      <workItem from="1522376460101" duration="4080000" />
     </task>
+    <task id="LOCAL-00001" summary="Fin del primer tutorial&#10;se crea la pantalla principal">
+      <created>1522380714976</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1522380714976</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6506000" />
+    <option name="totallyTimeSpent" value="6550000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="1376" height="744" extended-state="6" />
@@ -285,6 +292,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Fin del primer tutorial&#10;se crea la pantalla principal" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fin del primer tutorial&#10;se crea la pantalla principal" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
