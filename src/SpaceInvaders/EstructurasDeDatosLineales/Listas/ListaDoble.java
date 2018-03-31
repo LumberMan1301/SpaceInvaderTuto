@@ -1,7 +1,7 @@
-package SpaceInvaders.Display.EstructurasDeDatosLineales.Listas;
+package SpaceInvaders.EstructurasDeDatosLineales.Listas;
 
 
-import SpaceInvaders.Display.EstructurasDeDatosLineales.Nodo.Nodo;
+import SpaceInvaders.EstructurasDeDatosLineales.Nodo.Nodo;
 
 /**
  * Se crea la clase Lista Doble que es una derivada de la clase Lista

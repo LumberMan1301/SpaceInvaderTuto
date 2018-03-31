@@ -1,6 +1,6 @@
-package SpaceInvaders.Display.Display;
+package SpaceInvaders.Display;
 
-import SpaceInvaders.Display.State.StateMachine;
+import SpaceInvaders.State.StateMachine;
 
 import javax.swing.*;
 import java.awt.*;

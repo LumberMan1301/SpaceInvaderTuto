@@ -1,6 +1,7 @@
-package SpaceInvaders.Display.State;
+package SpaceInvaders.State;
 
-import SpaceInvaders.Display.EstructurasDeDatosLineales.Listas.Lista;
+import SpaceInvaders.EstructurasDeDatosLineales.Listas.Lista;
+import SpaceInvaders.GameScreen.GameScreen;
 
 import java.awt.*;
 
@@ -14,6 +15,9 @@ public class StateMachine  {
     private byte selectState = 0;
 
     public StateMachine (Canvas canvas){
+        SuperStateMachine game = new GameScreen();
+        states.agregar(game);
+
         this.canvas = canvas;
     }
     public void draw(Graphics2D g){

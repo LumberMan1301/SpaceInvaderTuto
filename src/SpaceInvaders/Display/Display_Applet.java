@@ -1,4 +1,4 @@
-package SpaceInvaders.Display.Display;
+package SpaceInvaders.Display;
 
 import javax.swing.*;
 import java.awt.*;

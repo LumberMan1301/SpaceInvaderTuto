@@ -1,4 +1,4 @@
-package SpaceInvaders.Display.EstructurasDeDatosLineales.Nodo;
+package SpaceInvaders.EstructurasDeDatosLineales.Nodo;
 
 /**
  * clase EstructuraDeDatosLineal.Nodo, para almacenar datos, estos forman las listas y sus variaciones

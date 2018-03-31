@@ -1,4 +1,4 @@
-package SpaceInvaders.Display.State;
+package SpaceInvaders.State;
 
 
 import java.awt.*;
