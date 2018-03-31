@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="259fcd9e-6a1e-414d-bcc9-896e3aa71923" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/SpaceInvaders/Display/EstructurasDeDatosLineales/Listas/Lista.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/SpaceInvaders/Display/EstructurasDeDatosLineales/Listas/ListaDoble.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/SpaceInvaders/Display/EstructurasDeDatosLineales/Nodo/Nodo.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/SpaceInvaders/Display/State/StateMachine.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/SpaceInvaders/Display/State/SuperStateMachine.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/SpaceInvaders/Display/Display.java" afterPath="$PROJECT_DIR$/src/SpaceInvaders/Display/Display/Display.java" />
-      <change beforePath="$PROJECT_DIR$/src/SpaceInvaders/Display/Display_Applet.java" afterPath="$PROJECT_DIR$/src/SpaceInvaders/Display/Display/Display_Applet.java" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test3/SpaceInvaders/Display/Display.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/SpaceInvaders/Display/Display/Display.java" afterPath="$PROJECT_DIR$/src/SpaceInvaders/Display/Display/Display.java" />
+      <change beforePath="$PROJECT_DIR$/src/SpaceInvaders/Display/EstructurasDeDatosLineales/Listas/Lista.java" afterPath="$PROJECT_DIR$/src/SpaceInvaders/Display/EstructurasDeDatosLineales/Listas/Lista.java" />
+      <change beforePath="$PROJECT_DIR$/src/SpaceInvaders/Display/EstructurasDeDatosLineales/Listas/ListaDoble.java" afterPath="$PROJECT_DIR$/src/SpaceInvaders/Display/EstructurasDeDatosLineales/Listas/ListaDoble.java" />
+      <change beforePath="$PROJECT_DIR$/src/SpaceInvaders/Display/State/StateMachine.java" afterPath="$PROJECT_DIR$/src/SpaceInvaders/Display/State/StateMachine.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,10 +22,12 @@
       <file leaf-file-name="Display.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SpaceInvaders/Display/Display/Display.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            <state relative-caret-position="528">
+              <caret line="131" column="0" lean-forward="false" selection-start-line="131" selection-start-column="0" selection-end-line="131" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#3821#3822#0" expanded="true" />
+                <element signature="e#3856#3857#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -37,10 +36,9 @@
       <file leaf-file-name="Display_Applet.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SpaceInvaders/Display/Display/Display_Applet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <state relative-caret-position="34">
+              <caret line="2" column="21" lean-forward="true" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
               <folding>
-                <element signature="imports" expanded="true" />
                 <element signature="e#399#400#0" expanded="true" />
                 <element signature="e#429#430#0" expanded="true" />
               </folding>
@@ -52,20 +50,28 @@
         <entry file="file://$PROJECT_DIR$/src/SpaceInvaders/Display/State/SuperStateMachine.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="9" column="36" lean-forward="false" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+              <caret line="9" column="36" lean-forward="true" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StateMachine.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="StateMachine.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/SpaceInvaders/Display/State/StateMachine.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
               <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding>
-                <element signature="e#155#156#0" expanded="true" />
-                <element signature="e#191#192#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#217#236#0" expanded="true" />
+                <element signature="e#341#342#0" expanded="true" />
+                <element signature="e#377#378#0" expanded="true" />
+                <element signature="e#413#414#0" expanded="true" />
+                <element signature="e#460#461#0" expanded="true" />
+                <element signature="e#498#499#0" expanded="true" />
+                <element signature="e#551#552#0" expanded="true" />
+                <element signature="e#842#843#0" expanded="true" />
+                <element signature="e#876#877#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -74,28 +80,8 @@
       <file leaf-file-name="Lista.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SpaceInvaders/Display/EstructurasDeDatosLineales/Listas/Lista.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ListaDoble.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SpaceInvaders/Display/EstructurasDeDatosLineales/Listas/ListaDoble.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Nodo.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/SpaceInvaders/Display/EstructurasDeDatosLineales/Nodo/Nodo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+            <state relative-caret-position="318">
+              <caret line="211" column="0" lean-forward="true" selection-start-line="211" selection-start-column="0" selection-end-line="211" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -125,8 +111,11 @@
         <option value="$PROJECT_DIR$/src/SpaceInvaders/Display/Display_Applet.java" />
         <option value="$PROJECT_DIR$/src/SpaceInvaders/Display/Display/Display_Applet.java" />
         <option value="$PROJECT_DIR$/src/SpaceInvaders/Display/State/SuperStateMachine.java" />
-        <option value="$PROJECT_DIR$/src/SpaceInvaders/Display/State/StateMachine.java" />
         <option value="$PROJECT_DIR$/src/SpaceInvaders/Display/EstructurasDeDatosLineales/Nodo/Nodo.java" />
+        <option value="$PROJECT_DIR$/src/SpaceInvaders/Display/EstructurasDeDatosLineales/Listas/ListaDoble.java" />
+        <option value="$PROJECT_DIR$/src/SpaceInvaders/Display/EstructurasDeDatosLineales/Listas/Lista.java" />
+        <option value="$PROJECT_DIR$/src/SpaceInvaders/Display/Display/Display.java" />
+        <option value="$PROJECT_DIR$/src/SpaceInvaders/Display/State/StateMachine.java" />
       </list>
     </option>
   </component>
@@ -137,9 +126,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1358" />
+    <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1376" />
+    <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -181,29 +170,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Display" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Test3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Test3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Display" type="462c0819:PsiDirectoryNode" />
-              <item name="EstructurasDeDatosLineales" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Test3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Test3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Display" type="462c0819:PsiDirectoryNode" />
-              <item name="EstructurasDeDatosLineales" type="462c0819:PsiDirectoryNode" />
-              <item name="Listas" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Test3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Test3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Display" type="462c0819:PsiDirectoryNode" />
-              <item name="EstructurasDeDatosLineales" type="462c0819:PsiDirectoryNode" />
-              <item name="Nodo" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -234,7 +200,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Applet.Display_Applet">
+  <component name="RunManager" selected="Application.Display">
     <configuration name="Display_Applet" type="Applet" factoryName="Applet" temporary="true">
       <option name="HTML_USED" value="false" />
       <option name="MAIN_CLASS_NAME" value="SpaceInvaders.Display.Display.Display_Applet" />
@@ -351,8 +317,8 @@
     </list>
     <recent_temporary>
       <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Applet.Display_Applet" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Display" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Display" />
+        <item index="1" class="java.lang.String" itemvalue="Applet.Display_Applet" />
       </list>
     </recent_temporary>
   </component>
@@ -370,7 +336,7 @@
       <option name="presentableId" value="Default" />
       <updated>1522308255158</updated>
       <workItem from="1522308259936" duration="2470000" />
-      <workItem from="1522376460101" duration="10646000" />
+      <workItem from="1522376460101" duration="15122000" />
     </task>
     <task id="LOCAL-00001" summary="Fin del primer tutorial&#10;se crea la pantalla principal">
       <created>1522380714976</created>
@@ -414,15 +380,21 @@
       <option name="project" value="LOCAL" />
       <updated>1522396627925</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Fin del tercer tutorial&#10;Se crea el BufferStrategy que sirve para organizar la memoria de &#10;los convas que se crean&#10;Se comienza a integrar las estructuras hechas por mi persona a la aplicacion en construccion">
+      <created>1522397361795</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1522397361795</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13116000" />
+    <option name="totallyTimeSpent" value="17592000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1358" y="-8" width="1376" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -432,12 +404,12 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24772036" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24659607" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -463,31 +435,92 @@
     <MESSAGE value="Fin del primer tutorial&#10;se crea la pantalla principal" />
     <MESSAGE value="Fin del segundo tutorial&#10;se crea el applet del Display, y la logica de los FPS" />
     <MESSAGE value="Fin del tercer tutorial&#10;Se crea el BufferStrategy que sirve para organizar la memoria de &#10;los convas que se crean" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fin del tercer tutorial&#10;Se crea el BufferStrategy que sirve para organizar la memoria de &#10;los convas que se crean" />
+    <MESSAGE value="Fin del tercer tutorial&#10;Se crea el BufferStrategy que sirve para organizar la memoria de &#10;los convas que se crean&#10;Se comienza a integrar las estructuras hechas por mi persona a la aplicacion en construccion" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fin del tercer tutorial&#10;Se crea el BufferStrategy que sirve para organizar la memoria de &#10;los convas que se crean&#10;Se comienza a integrar las estructuras hechas por mi persona a la aplicacion en construccion" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/SpaceInvaders/Display/Display/Display.java">
+    <entry file="file://$PROJECT_DIR$/src/SpaceInvaders/Display/EstructurasDeDatosLineales/Listas/ListaDoble.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <caret line="9" column="14" lean-forward="false" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SpaceInvaders/Display/EstructurasDeDatosLineales/Nodo/Nodo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-459">
+          <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Dropbox/AirWar/src/Progra1/state/StateMachine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-32">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#585#586#0" expanded="false" />
+            <element signature="e#623#624#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Dropbox/AirWar/src/Progra1/ESTDAT/lista.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="78" column="5" lean-forward="true" selection-start-line="70" selection-start-column="4" selection-end-line="78" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SpaceInvaders/Display/EstructurasDeDatosLineales/Listas/Lista.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="211" column="0" lean-forward="true" selection-start-line="211" selection-start-column="0" selection-end-line="211" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.4/lib/src.zip!/java.base/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="843" column="0" lean-forward="false" selection-start-line="843" selection-start-column="0" selection-end-line="843" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SpaceInvaders/Display/Display/Display_Applet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="34">
+          <caret line="2" column="21" lean-forward="true" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="e#399#400#0" expanded="true" />
             <element signature="e#429#430#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.4/lib/src.zip!/java.base/jdk/internal/util/Preconditions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SpaceInvaders/Display/Display/Display.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="131" column="0" lean-forward="false" selection-start-line="131" selection-start-column="0" selection-end-line="131" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3821#3822#0" expanded="true" />
+            <element signature="e#3856#3857#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -495,7 +528,7 @@
     <entry file="file://$PROJECT_DIR$/src/SpaceInvaders/Display/State/SuperStateMachine.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="9" column="36" lean-forward="false" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+          <caret line="9" column="36" lean-forward="true" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
           <folding />
         </state>
       </provider>
@@ -505,33 +538,17 @@
         <state relative-caret-position="85">
           <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding>
-            <element signature="e#155#156#0" expanded="true" />
-            <element signature="e#191#192#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#217#236#0" expanded="true" />
+            <element signature="e#341#342#0" expanded="true" />
+            <element signature="e#377#378#0" expanded="true" />
+            <element signature="e#413#414#0" expanded="true" />
+            <element signature="e#460#461#0" expanded="true" />
+            <element signature="e#498#499#0" expanded="true" />
+            <element signature="e#551#552#0" expanded="true" />
+            <element signature="e#842#843#0" expanded="true" />
+            <element signature="e#876#877#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SpaceInvaders/Display/EstructurasDeDatosLineales/Listas/Lista.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SpaceInvaders/Display/EstructurasDeDatosLineales/Listas/ListaDoble.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SpaceInvaders/Display/EstructurasDeDatosLineales/Nodo/Nodo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>

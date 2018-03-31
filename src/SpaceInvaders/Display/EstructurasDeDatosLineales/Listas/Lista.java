@@ -1,6 +1,7 @@
 package SpaceInvaders.Display.EstructurasDeDatosLineales.Listas;
 
-import EstructuraDeDatosLineal.Nodo.Nodo;
+
+import SpaceInvaders.Display.EstructurasDeDatosLineales.Nodo.Nodo;
 
 /**
  * clase Principal de EstructuraDeDatosLineal.Listas
@@ -188,5 +189,23 @@ public class Lista<T> {
      */
     public void setCapacidad(int capacidad) {
         this.capacidad = capacidad;
+    }
+
+    //########################################################3
+    //metodos requeridos para el acoplamiento con el programa
+
+    /**
+     * metodo que retorna los valores hasta la posicion solicitada
+     * @param i
+     * @return Dato
+     */
+    public T get(int i){
+        Nodo<T> aux = this.getPrimero();
+        int x = 0;
+        while(x != i){
+            aux = aux.getSiguiente();
+            x++;
+        }
+        return aux.getDato();
     }
 }

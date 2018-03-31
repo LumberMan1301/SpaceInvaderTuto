@@ -1,5 +1,7 @@
 package SpaceInvaders.Display.Display;
 
+import SpaceInvaders.Display.State.StateMachine;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.image.BufferStrategy;
@@ -21,6 +23,8 @@ public class Display extends Canvas implements Runnable{
         this.setSize(WIDTH, HEIGHT);
         this.setFocusable(true);//pone el display al frente de las demas ventanas
 
+        state = new StateMachine(this);
+        state.setStates((byte)0);
     }
 
     /**
@@ -32,7 +36,7 @@ public class Display extends Canvas implements Runnable{
         JFrame frame = new JFrame();
         frame.add(display);// agrega el canvas al Jframe
         frame.pack();
-        frame.setTitle("Sp0ace Invaders");
+        frame.setTitle("Spcace Invaders");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setResizable(false);// para no cambiar el tamano de la pantalla de Juego
         frame.setVisible(true);
@@ -76,6 +80,9 @@ public class Display extends Canvas implements Runnable{
       */
     public static int WIDTH = 800, HEIGHT = 600;
     public int FPS;
+
+    public static StateMachine state;
+
 
 
     /**
@@ -121,6 +128,10 @@ public class Display extends Canvas implements Runnable{
                 Graphics2D g = (Graphics2D) bs.getDrawGraphics();
                 g.setColor(Color.BLACK);
                 g.fillRect(0,0,WIDTH, HEIGHT);
+
+                state.draw(g);
+
+
                 g.dispose();
 
 
@@ -130,6 +141,6 @@ public class Display extends Canvas implements Runnable{
     }
 
     public void update(double delta){
-
+        state.update(delta);
     }
 }
