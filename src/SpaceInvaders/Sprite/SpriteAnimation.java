@@ -1,6 +1,7 @@
 package SpaceInvaders.Sprite;
 
 import SpaceInvaders.EstructurasDeDatosLineales.Listas.Lista;
+import SpaceInvaders.Timer.Timer;
 
 import java.awt.*;
 import java.awt.image.BufferedImage;
@@ -13,6 +14,7 @@ public class SpriteAnimation {
 
 
     private Lista<BufferedImage> sprites = new Lista<BufferedImage>();
+    private byte currentSprite;
 
     private boolean loop = false;
     private boolean play = false;
@@ -23,6 +25,7 @@ public class SpriteAnimation {
     /**
      * variables de la animacion, ubicacion en pantalla y velocidad de animacion
      */
+    private Timer timer;
     private double xPos;
     private double yPos;
     private int animationSpeed;
@@ -38,15 +41,58 @@ public class SpriteAnimation {
         this.xPos = xPos;
         this.yPos = yPos;
         this.animationSpeed = animationSpeed;
+
+        timer = new Timer();
     }
 
     public void draw(Graphics2D g){
+        g.drawImage(sprites.get(currentSprite),(int) getxPos(),(int)getyPos(), null);
 
     }
 
     public void update(double delta){
-
+        if(isDestroyAfterAnim())
+            return;
+        if(loop && !play)
+            loopAni();
+        if (play && !loop)
+            playAni();
     }
+
+    public void stopAni(){
+        loop = false;
+        play = false;
+    }
+    public void resetSprite(){
+        loop = false;
+        play = false;
+        currentSprite = 0;
+    }
+
+    private void loopAni(){
+        if(timer.timerEvent(animationSpeed) && currentSprite != sprites.getCapacidad()-1 ){
+            currentSprite++;
+        }else if(timer.timerEvent(animationSpeed) && currentSprite == sprites.getCapacidad()-1 ){
+            sprites = null;
+        }
+    }
+
+    private void playAni(){
+        if(timer.timerEvent(animationSpeed) && currentSprite != sprites.getCapacidad()-1 && !isDestroyAfterAnim()){
+            play = false;
+        }else if(timer.timerEvent(animationSpeed) && currentSprite == sprites.getCapacidad()&& isDestroyAfterAnim()){
+            currentSprite = 0;
+        }else if(timer.timerEvent(animationSpeed) && currentSprite != sprites.getCapacidad()-1 ){
+            currentSprite++;
+        }
+    }
+
+    public boolean isSpriteAniDest(){
+        if(sprites == null)
+            return true;
+        return false;
+    }
+
 
     /**
      * metodo que agrega las animaciones a una lista de animaciones
@@ -70,4 +116,51 @@ public class SpriteAnimation {
         this.destroyAfterAnim = destroyAfterAnim;
     }
 
+    /**
+     * metodo para obtener la posicion horizontal
+     * @return
+     */
+    public double getxPos() {
+        return xPos;
+    }
+
+    /**
+     * metodo para asignar la posicion horizontal
+     * @param xPos
+     */
+    public void setxPos(double xPos) {
+        this.xPos = xPos;
+    }
+
+    /**
+     * metodo para obtener la posicion vertical
+     * @return
+     */
+    public double getyPos() {
+        return yPos;
+    }
+
+    /**
+     * metodo para asignar la posicion vertical
+     * @param yPos
+     */
+    public void setyPos(double yPos) {
+        this.yPos = yPos;
+    }
+
+    /**
+     * metodo para obtener el estado de la animacion
+     * @return
+     */
+    public boolean isDestroyAfterAnim() {
+        return destroyAfterAnim;
+    }
+
+    /**
+     * metodo para asignar el estado de la animacion
+     * @param destroyAfterAnim
+     */
+    public void setDestroyAfterAnim(boolean destroyAfterAnim) {
+        this.destroyAfterAnim = destroyAfterAnim;
+    }
 }

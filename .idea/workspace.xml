@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="259fcd9e-6a1e-414d-bcc9-896e3aa71923" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/SpaceInvaders/Timer/Timer.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/src/SpaceInvaders/Sprite/SpriteAnimation.java" afterPath="$PROJECT_DIR$/src/SpaceInvaders/Sprite/SpriteAnimation.java" />
     </list>
@@ -18,12 +19,47 @@
       <file leaf-file-name="SpriteAnimation.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/SpaceInvaders/Sprite/SpriteAnimation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="44" column="5" lean-forward="true" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
+            <state relative-caret-position="340">
+              <caret line="47" column="35" lean-forward="true" selection-start-line="47" selection-start-column="35" selection-end-line="47" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#418#433#0" expanded="true" />
+                <element signature="e#452#467#0" expanded="true" />
+                <element signature="docComment;method#getxPos#0;class#SpriteAnimation#0" expanded="false" />
+                <element signature="docComment;method#setxPos#0;class#SpriteAnimation#0" expanded="false" />
+                <element signature="docComment;method#getyPos#0;class#SpriteAnimation#0" expanded="false" />
+                <element signature="docComment;method#setyPos#0;class#SpriteAnimation#0" expanded="false" />
+                <element signature="docComment;method#isDestroyAfterAnim#0;class#SpriteAnimation#0" expanded="false" />
+                <element signature="docComment;method#setDestroyAfterAnim#0;class#SpriteAnimation#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Timer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/SpaceInvaders/Timer/Timer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+              <folding>
+                <element signature="e#99#100#0" expanded="true" />
+                <element signature="e#152#153#0" expanded="true" />
+                <element signature="e#185#186#0" expanded="true" />
+                <element signature="e#216#217#0" expanded="true" />
+                <element signature="e#262#263#0" expanded="true" />
+                <element signature="e#302#303#0" expanded="true" />
+                <element signature="e#333#334#0" expanded="true" />
+                <element signature="e#386#387#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Lista.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/SpaceInvaders/EstructurasDeDatosLineales/Listas/Lista.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="207" column="9" lean-forward="true" selection-start-line="207" selection-start-column="9" selection-end-line="207" selection-end-column="9" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -59,6 +95,8 @@
         <option value="$PROJECT_DIR$/src/SpaceInvaders/Display/State/StateMachine.java" />
         <option value="$PROJECT_DIR$/src/SpaceInvaders/GameScreen/GameScreen.java" />
         <option value="$PROJECT_DIR$/src/SpaceInvaders/State/StateMachine.java" />
+        <option value="$PROJECT_DIR$/src/SpaceInvaders/EstructurasDeDatosLineales/Listas/Lista.java" />
+        <option value="$PROJECT_DIR$/src/SpaceInvaders/Timer/Timer.java" />
         <option value="$PROJECT_DIR$/src/SpaceInvaders/Sprite/SpriteAnimation.java" />
       </list>
     </option>
@@ -112,57 +150,6 @@
               <item name="Test3" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="SpaceInvaders" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Test3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Test3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="SpaceInvaders" type="462c0819:PsiDirectoryNode" />
-              <item name="Display" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Test3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Test3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="SpaceInvaders" type="462c0819:PsiDirectoryNode" />
-              <item name="EstructurasDeDatosLineales" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Test3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Test3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="SpaceInvaders" type="462c0819:PsiDirectoryNode" />
-              <item name="EstructurasDeDatosLineales" type="462c0819:PsiDirectoryNode" />
-              <item name="Listas" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Test3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Test3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="SpaceInvaders" type="462c0819:PsiDirectoryNode" />
-              <item name="EstructurasDeDatosLineales" type="462c0819:PsiDirectoryNode" />
-              <item name="Nodo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Test3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Test3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="SpaceInvaders" type="462c0819:PsiDirectoryNode" />
-              <item name="GameScreen" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Test3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Test3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="SpaceInvaders" type="462c0819:PsiDirectoryNode" />
-              <item name="Sprite" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Test3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Test3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="SpaceInvaders" type="462c0819:PsiDirectoryNode" />
-              <item name="State" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -332,7 +319,7 @@
       <updated>1522308255158</updated>
       <workItem from="1522308259936" duration="2470000" />
       <workItem from="1522376460101" duration="16442000" />
-      <workItem from="1522517779467" duration="1158000" />
+      <workItem from="1522517779467" duration="4700000" />
     </task>
     <task id="LOCAL-00001" summary="Fin del primer tutorial&#10;se crea la pantalla principal">
       <created>1522380714976</created>
@@ -404,11 +391,18 @@
       <option name="project" value="LOCAL" />
       <updated>1522518331218</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Fin del 5to tutorial">
+      <created>1522518974208</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1522518974208</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20070000" />
+    <option name="totallyTimeSpent" value="23612000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -442,6 +436,35 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25037822" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -455,7 +478,8 @@
     <MESSAGE value="Fin del tercer tutorial&#10;Se crea el BufferStrategy que sirve para organizar la memoria de &#10;los convas que se crean" />
     <MESSAGE value="Fin del tercer tutorial&#10;Se crea el BufferStrategy que sirve para organizar la memoria de &#10;los convas que se crean&#10;Se comienza a integrar las estructuras hechas por mi persona a la aplicacion en construccion" />
     <MESSAGE value="Inicio del 5 tutorial, Game Screen y Sprite" />
-    <option name="LAST_COMMIT_MESSAGE" value="Inicio del 5 tutorial, Game Screen y Sprite" />
+    <MESSAGE value="Fin del 5to tutorial" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fin del 5to tutorial" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -533,7 +557,13 @@
           <caret line="18" column="28" lean-forward="true" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#418#433#0" expanded="true" />
+            <element signature="e#452#467#0" expanded="true" />
+            <element signature="docComment;method#getxPos#0;class#SpriteAnimation#0" expanded="false" />
+            <element signature="docComment;method#setxPos#0;class#SpriteAnimation#0" expanded="false" />
+            <element signature="docComment;method#getyPos#0;class#SpriteAnimation#0" expanded="false" />
+            <element signature="docComment;method#setyPos#0;class#SpriteAnimation#0" expanded="false" />
+            <element signature="docComment;method#isDestroyAfterAnim#0;class#SpriteAnimation#0" expanded="false" />
+            <element signature="docComment;method#setDestroyAfterAnim#0;class#SpriteAnimation#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -558,13 +588,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-32">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Dropbox/AirWar/src/Progra1/ESTDAT/lista.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="78" column="5" lean-forward="true" selection-start-line="70" selection-start-column="4" selection-end-line="78" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -604,14 +627,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SpaceInvaders/EstructurasDeDatosLineales/Listas/Lista.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="445">
-          <caret line="211" column="0" lean-forward="false" selection-start-line="211" selection-start-column="0" selection-end-line="211" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/SpaceInvaders/State/StateMachine.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -648,13 +663,76 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Dropbox/AirWar/src/Progra1/ESTDAT/lista.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-187">
+          <caret line="74" column="32" lean-forward="true" selection-start-line="74" selection-start-column="32" selection-end-line="74" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Dropbox/AirWar/src/Progra1/sprite/SpriteAnimation (Copia en conflicto de LAPTOP-VIQNKBTU 2017-04-21).java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-323">
+          <caret line="59" column="29" lean-forward="false" selection-start-line="59" selection-start-column="29" selection-end-line="59" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Dropbox/AirWar/src/Progra1/enemy_types/EnemyType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Dropbox/AirWar/src/Progra1/enemy_types/EnemyTypeBasic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1428">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SpaceInvaders/EstructurasDeDatosLineales/Listas/Lista.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="207" column="9" lean-forward="true" selection-start-line="207" selection-start-column="9" selection-end-line="207" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SpaceInvaders/Timer/Timer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding>
+            <element signature="e#99#100#0" expanded="true" />
+            <element signature="e#152#153#0" expanded="true" />
+            <element signature="e#185#186#0" expanded="true" />
+            <element signature="e#216#217#0" expanded="true" />
+            <element signature="e#262#263#0" expanded="true" />
+            <element signature="e#302#303#0" expanded="true" />
+            <element signature="e#333#334#0" expanded="true" />
+            <element signature="e#386#387#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/SpaceInvaders/Sprite/SpriteAnimation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="44" column="5" lean-forward="true" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
+        <state relative-caret-position="340">
+          <caret line="47" column="35" lean-forward="true" selection-start-line="47" selection-start-column="35" selection-end-line="47" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#418#433#0" expanded="true" />
+            <element signature="e#452#467#0" expanded="true" />
+            <element signature="docComment;method#getxPos#0;class#SpriteAnimation#0" expanded="false" />
+            <element signature="docComment;method#setxPos#0;class#SpriteAnimation#0" expanded="false" />
+            <element signature="docComment;method#getyPos#0;class#SpriteAnimation#0" expanded="false" />
+            <element signature="docComment;method#setyPos#0;class#SpriteAnimation#0" expanded="false" />
+            <element signature="docComment;method#isDestroyAfterAnim#0;class#SpriteAnimation#0" expanded="false" />
+            <element signature="docComment;method#setDestroyAfterAnim#0;class#SpriteAnimation#0" expanded="false" />
           </folding>
         </state>
       </provider>
