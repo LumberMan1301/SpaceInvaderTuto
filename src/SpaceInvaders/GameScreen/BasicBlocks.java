@@ -34,21 +34,23 @@ public class BasicBlocks {
 
         for(int i=0; i<13; i++){
             if((14+(i*2)+wallWidth < 22 + wallWidth)){
-                row(14+(i*2)+wallWidth,xPos-(i*3),yPos+(i*3));
+                //row(14+(i*2)+wallWidth,xPos-(i*3),yPos+(i*3));
                 x = (i*3);
             }else {
-                row(22+wallWidth, xPos-x,yPos+(i*3));
+                //row(22+wallWidth, xPos-x,yPos+(i*3));
                 y=(i*3);
             }
         }
+
         //lado izquierdo
         for(int i = 0; i<5;i++){
-            row(8+wallWidth-i, xPos-x, (yPos+y)+(i*3));
+            //row(8+wallWidth-i, xPos-x, (yPos+y)+(i*3));
         }
         //lado derecho
         for(int i = 0; i<5;i++){
-            row(8+wallWidth-i, (xPos-x)+(14*3), 3+(yPos+y)+(i*3));
+            //row(8+wallWidth-i, (xPos-x)+(14*3), 3+(yPos+y)+(i*3));
         }
+
     }
 
     public void row(int rows, int xPos, int yPos){

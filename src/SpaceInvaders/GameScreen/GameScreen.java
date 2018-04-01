@@ -12,7 +12,7 @@ public class GameScreen implements SuperStateMachine {
 
     public GameScreen(){
         player = new Player(Display.WIDTH/2-50, Display.HEIGHT-75, 50,50);
-        bb = new BasicBlocks();
+        //bb = new BasicBlocks();
     }
 
     @Override
@@ -23,7 +23,7 @@ public class GameScreen implements SuperStateMachine {
     @Override
     public void draw(Graphics2D g) {
         player.draw(g);
-        bb.draw(g);
+        //bb.draw(g);
     }
 
     @Override

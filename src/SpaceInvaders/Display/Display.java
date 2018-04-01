@@ -112,7 +112,7 @@ public class Display extends Canvas implements Runnable{
                 timer +=1000;
                 FPS = frames;
                 frames = 0;
-                //System.out.println(FPS);
+
             }
             draw(bs);
             update(delta);

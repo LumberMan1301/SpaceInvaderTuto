@@ -20,7 +20,7 @@ public class Player implements KeyListener {
     private Rectangle rect;
 
     private boolean left = false;
-    private boolean rigth = false;
+    private boolean right = false;
 
 
     public Player(double xPos, double yPos, int width, int height) {
@@ -44,14 +44,51 @@ public class Player implements KeyListener {
     }
 
     public void update(double delta){
-        if(rigth && !left && xPos < Display.WIDTH-width){
+        if(right && !left && xPos < Display.WIDTH-width){
             xPos += (speed * delta);
             rect.x = (int)xPos;
-        }if(!rigth && left && xPos > 10){
+        }if(!right && left && xPos > 10){
             xPos -= (speed * delta);
             rect.x = (int)xPos;
         }
 
+
+    }
+
+
+
+    /**
+     * Invoked when a key has been pressed.
+     * @param e the event to be processed
+     */
+    @Override
+    public void keyPressed(KeyEvent e) {
+        int key = e.getKeyCode();
+        if(key == KeyEvent.VK_RIGHT) {
+            right = true;
+            System.out.println("Moverse a la derecha");
+        }else if (key == KeyEvent.VK_LEFT) {
+            left = true;
+            System.out.println("Moverse a la izquierda");
+        }
+
+        System.out.println("Usted esta oprimiendo"+e.getKeyCode());
+    }
+
+    /**
+     * Invoked when a key has been released.
+     * @param e the event to be processed
+     */
+    @Override
+    public void keyReleased(KeyEvent e) {
+        int key = e.getKeyCode();
+        if(key == KeyEvent.VK_RIGHT) {
+            right = false;
+            System.out.println("-");
+        }else if (key == KeyEvent.VK_LEFT) {
+            left = false;
+            System.out.println("-");
+        }
 
     }
 
@@ -62,37 +99,5 @@ public class Player implements KeyListener {
     @Override
     public void keyTyped(KeyEvent e) {
 
-    }
-
-    /**
-     * Invoked when a key has been pressed.
-     * @param e the event to be processed
-     */
-    @Override
-    public void keyPressed(KeyEvent e) {
-        int key = e.getKeyCode();
-        if(key == KeyEvent.VK_D || key == KeyEvent.VK_RIGHT) {
-            rigth = true;
-            System.out.println("Moverse a la derecha");
-        }else if (key == KeyEvent.VK_A || key == KeyEvent.VK_LEFT) {
-            left = true;
-            System.out.println("Moverse a la izquierda");
-        }
-    }
-
-    /**
-     * Invoked when a key has been released.
-     * @param e the event to be processed
-     */
-    @Override
-    public void keyReleased(KeyEvent e) {
-        int key = e.getKeyCode();
-        if(key == KeyEvent.VK_D || key == KeyEvent.VK_RIGHT) {
-            rigth = false;
-            System.out.println("-");
-        }else if (key == KeyEvent.VK_A || key == KeyEvent.VK_LEFT) {
-            left = false;
-            System.out.println("-");
-        }
     }
 }
