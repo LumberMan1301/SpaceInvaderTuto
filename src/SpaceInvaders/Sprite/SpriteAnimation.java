@@ -46,8 +46,10 @@ public class SpriteAnimation {
     }
 
     public void draw(Graphics2D g){
+        if(isDestroyAfterAnim())
+            return;
         g.drawImage(sprites.get(currentSprite),(int) getxPos(),(int)getyPos(), null);
-        return;
+
     }
 
     public void update(double delta){
@@ -81,7 +83,7 @@ public class SpriteAnimation {
     private void playAni(){
         if(timer.timerEvent(animationSpeed) && currentSprite != sprites.getCapacidad()-1 && !isDestroyAfterAnim()){
             play = false;
-            currentSprite = 0;
+            currentSprite = 0;//reset the animation
         }else if(timer.timerEvent(animationSpeed) && currentSprite == sprites.getCapacidad()&& isDestroyAfterAnim()){
             sprites = null;
         }else if(timer.timerEvent(animationSpeed) && currentSprite != sprites.getCapacidad()-1 ){
