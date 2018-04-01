@@ -81,10 +81,10 @@ public class SpriteAnimation {
     }
 
     private void playAni(){
-        if(timer.timerEvent(animationSpeed) && currentSprite != sprites.getCapacidad()-1 && !isDestroyAfterAnim()){
+        if(timer.isTimerReady(animationSpeed) && currentSprite != sprites.getCapacidad()-1 && !isDestroyAfterAnim()){
             play = false;
             currentSprite = 0;//reset the animation
-        }else if(timer.timerEvent(animationSpeed) && currentSprite == sprites.getCapacidad()&& isDestroyAfterAnim()){
+        }else if(timer.isTimerReady(animationSpeed) && currentSprite == sprites.getCapacidad()&& isDestroyAfterAnim()){
             sprites = null;
         }else if(timer.timerEvent(animationSpeed) && currentSprite != sprites.getCapacidad()-1 ){
             currentSprite++;
