@@ -47,7 +47,7 @@ public class SpriteAnimation {
 
     public void draw(Graphics2D g){
         g.drawImage(sprites.get(currentSprite),(int) getxPos(),(int)getyPos(), null);
-
+        return;
     }
 
     public void update(double delta){
@@ -70,18 +70,20 @@ public class SpriteAnimation {
     }
 
     private void loopAni(){
-        if(timer.timerEvent(animationSpeed) && currentSprite != sprites.getCapacidad()-1 ){
+        if(timer.isTimerReady(animationSpeed) && currentSprite == sprites.getCapacidad()-1 ){
+            currentSprite = 0;
+            timer.resetTimer();
+        }else if(timer.timerEvent(animationSpeed) && currentSprite != sprites.getCapacidad()-1 ){
             currentSprite++;
-        }else if(timer.timerEvent(animationSpeed) && currentSprite == sprites.getCapacidad()-1 ){
-            sprites = null;
         }
     }
 
     private void playAni(){
         if(timer.timerEvent(animationSpeed) && currentSprite != sprites.getCapacidad()-1 && !isDestroyAfterAnim()){
             play = false;
-        }else if(timer.timerEvent(animationSpeed) && currentSprite == sprites.getCapacidad()&& isDestroyAfterAnim()){
             currentSprite = 0;
+        }else if(timer.timerEvent(animationSpeed) && currentSprite == sprites.getCapacidad()&& isDestroyAfterAnim()){
+            sprites = null;
         }else if(timer.timerEvent(animationSpeed) && currentSprite != sprites.getCapacidad()-1 ){
             currentSprite++;
         }
@@ -116,6 +118,7 @@ public class SpriteAnimation {
         this.destroyAfterAnim = destroyAfterAnim;
     }
 
+//#########################################################################################################
     /**
      * metodo para obtener la posicion horizontal
      * @return
@@ -162,5 +165,21 @@ public class SpriteAnimation {
      */
     public void setDestroyAfterAnim(boolean destroyAfterAnim) {
         this.destroyAfterAnim = destroyAfterAnim;
+    }
+
+    public byte getCurrentSprite() {
+        return currentSprite;
+    }
+
+    public void setCurrentSprite(byte currentSprite) {
+        this.currentSprite = currentSprite;
+    }
+
+    public boolean isLoop() {
+        return loop;
+    }
+
+    public void setLoop(boolean loop) {
+        this.loop = loop;
     }
 }
