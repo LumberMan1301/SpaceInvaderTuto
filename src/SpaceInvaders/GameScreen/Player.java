@@ -73,8 +73,10 @@ public class Player implements KeyListener {
         int key = e.getKeyCode();
         if(key == KeyEvent.VK_D || key == KeyEvent.VK_RIGHT) {
             rigth = true;
+            System.out.println("Moverse a la derecha");
         }else if (key == KeyEvent.VK_A || key == KeyEvent.VK_LEFT) {
             left = true;
+            System.out.println("Moverse a la izquierda");
         }
     }
 
@@ -87,8 +89,10 @@ public class Player implements KeyListener {
         int key = e.getKeyCode();
         if(key == KeyEvent.VK_D || key == KeyEvent.VK_RIGHT) {
             rigth = false;
+            System.out.println("-");
         }else if (key == KeyEvent.VK_A || key == KeyEvent.VK_LEFT) {
             left = false;
+            System.out.println("-");
         }
     }
 }

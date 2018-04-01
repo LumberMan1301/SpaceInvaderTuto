@@ -110,7 +110,7 @@ public class Lista<T> {
                 aux.setSiguiente(aux.getSiguiente().getSiguiente());
                 this.capacidad--;
             }else{
-                System.out.println("Indici fuera de limites");
+                System.out.println("Indice fuera de limites");
             }
         }
 
